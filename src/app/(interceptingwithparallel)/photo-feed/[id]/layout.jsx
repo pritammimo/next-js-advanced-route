@@ -15,7 +15,7 @@ export async function generateMetadata(){
       description: product.data.description,
       openGraph: {
         images: product.data.thumbnail_link,
-        //videos: "https://www.youtube.com/embed/4k6Xgjqkad4",
+        videos: "https://www.youtube.com/embed/4k6Xgjqkad4",
       },
       twitter: {
         card: 'summary_large_image',
