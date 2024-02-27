@@ -13,9 +13,10 @@ export async function generateMetadata(){
     return {
       title: product.data.title,
       description: product.data.description,
+      url:"http://www.youtube.com/watch?v=CFLGRidfF04",
       openGraph: {
         images: product.data.thumbnail_link,
-        videos: "https://www.youtube.com/embed/4k6Xgjqkad4",
+        videos: "http://www.youtube.com/v/GFLGRidF04?version=3&autohide=1",
       },
       twitter: {
         card: 'summary_large_image',
