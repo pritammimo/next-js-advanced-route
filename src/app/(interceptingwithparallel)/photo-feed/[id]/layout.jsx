@@ -14,7 +14,13 @@ export async function generateMetadata(){
       title: product.data.title,
       description: product.data.description,
       openGraph: {
-        images: product.data.thumbnail_link,
+        // video:{
+        //   type:"application/x-shockwave-flash",
+        //   url:"https://example.com/movie.swf",
+        //   width:"300",
+        //   height:"400"
+        // },
+        //images: product.data.thumbnail_link,
         videos: product.data.teaser_link,
       },
       twitter: {
