@@ -23,10 +23,13 @@ export async function generateMetadata(){
         siteId: '1467726470533754880',
         creator: '@nextjs',
         creatorId: '1467726470533754880',
-        images: [product.data.thumbnail_link], // Must be an absolute URL
-        player:product.data.teaser_link,
-        playerWidth: '640',
-        playerHeight: '360',
+        images: {
+            url: product.data.thumbnail_link,
+            alt: 'Next.js Logo',
+          },// Must be an absolute URL
+        // player:product.data.teaser_link,
+        // playerWidth: '640',
+        // playerHeight: '360',
       }
     //   openGraph: {
     //     images: ['/some-specific-page-image.jpg', ...previousImages],
