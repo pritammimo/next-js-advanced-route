@@ -14,14 +14,8 @@ export async function generateMetadata(){
       title: product.data.title,
       description: product.data.description,
       openGraph: {
-        // video:{
-        //   type:"application/x-shockwave-flash",
-        //   url:"https://example.com/movie.swf",
-        //   width:"300",
-        //   height:"400"
-        // },
         //images: product.data.thumbnail_link,
-        videos: product.data.teaser_link,
+        videos: "https://www.youtube.com/embed/4k6Xgjqkad4",
       },
       twitter: {
         card: 'summary_large_image',
