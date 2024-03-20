@@ -5,7 +5,7 @@ export async function generateMetadata(){
     // const id = params.id
    
     // fetch data
-    const product = await fetch(`https://cnp2002-api.developer24x7.com/api/frontend/video/getVideoById/6`).then((res) => res.json())
+    const product = await fetch(`https://cnp2002-api.developer24x7.com/api/frontend/video/getVideoById/6/null`).then((res) => res.json())
      console.log(product)
     // optionally access and extend (rather than replace) parent metadata
     // const previousImages = (await parent).openGraph?.images || []
